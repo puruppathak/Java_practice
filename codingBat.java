@@ -54,5 +54,16 @@ public boolean icyHot(int temp1, int temp2) {
   
 }
 
+public boolean in1020(int a, int b) {
+  
+  if((a>9&&a<21)||(b>9&&b<21))
+  return true;
+  else
+  return false;
+  
+}
+
+
+
 
 }
