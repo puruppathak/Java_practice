@@ -161,6 +161,23 @@ public int intMax(int a, int b, int c) {
   
 }
 
+public int close10(int a, int b) {
+  
+  int r1 = Math.abs(a-10);
+  int r2 = Math.abs(b-10);
+  if(r1<r2)
+  {
+  return a;
+  
+  }
+  else if(r2<r1)
+  {
+  return b;
+  }
+  
+  else
+  return 0;
+}
 
 
 }
