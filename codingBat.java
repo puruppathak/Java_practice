@@ -143,5 +143,24 @@ public String startOz(String str) {
   return result;
 }
 
+public int intMax(int a, int b, int c) {
+  int temp;
+  if(a>b)
+  {
+  temp=a;
+  }
+  else
+  temp=b;
+  
+  if(c>temp)
+  return c;
+  else
+  return temp;
+  
+  
+  
+}
+
+
 
 }
