@@ -179,5 +179,16 @@ public int close10(int a, int b) {
   return 0;
 }
 
+public boolean in3050(int a, int b) {
+  
+  boolean r1 = ((a>=30 && a<=40)&&(b>=30 && b<=40));
+  
+  boolean r2 = ((a>=40 && a<=50)&&(b>=40 && b<=50));
+  
+  
+  return(r1 || r2);
+  
+}
+
 
 }
