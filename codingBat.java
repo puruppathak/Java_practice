@@ -258,5 +258,20 @@ public String endUp(String str) {
   
 }
 
+public String everyNth(String str, int n) {
+  
+  int i=0;
+  String result="";
+  while(i<str.length())
+  {
+  
+  result=result+str.charAt(i);
+  i=i+n;
+  
+  }
+  return result;
+}
+
+
 
 }
