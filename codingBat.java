@@ -76,4 +76,39 @@ public boolean loneTeen(int a, int b) {
   
 }
 
+
+public String delDel(String str) {
+  
+  
+  
+  if(str.length()>=4)
+   {
+  String str1 = str.substring(1,4);
+  
+  boolean rent = str1.equals("del");
+  
+  
+  
+  
+  if(rent==true)
+  {
+  
+  return str.charAt(0) + str.substring(4);
+  
+  }
+  
+  else
+  {
+  return str;
+  }
+  }
+  else
+  return str;
+  
+  
+}
+
+
+
+
 }
