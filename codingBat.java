@@ -108,6 +108,27 @@ public String delDel(String str) {
   
 }
 
+public boolean mixStart(String str) {
+  
+  
+  if(str.length()>=3)
+  {
+  //String str1 = str.substring(1,2);
+  
+  if(str.charAt(1)=='i'&& str.charAt(2)=='x')
+  {
+  
+  return true;
+  }
+  else
+  return false;
+  }
+  else
+  return false;
+  
+  
+}
+
 
 
 
