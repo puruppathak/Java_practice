@@ -238,7 +238,25 @@ public boolean lastDigit(int a, int b) {
   
   
 }
-
+public String endUp(String str) {
+  
+  
+  if(str.length()>3)
+  {
+  String u1 = str.substring(str.length()-3,str.length());
+  
+  return str.substring(0,str.length()-3)+u1.toUpperCase();
+  
+  
+  }
+  else
+  {
+  
+  return str.toUpperCase();
+  }
+  
+  
+}
 
 
 }
