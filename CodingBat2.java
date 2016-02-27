@@ -104,7 +104,21 @@ boolean doubleX(String str) {
  
  
  
- 
+ public String stringBits(String str) {
+  
+  int i;
+  String result = "";
+  for(i=0;i<str.length();i+=2)
+  {
+  
+  result = result+str.charAt(i);
+  
+  
+  }
+  return result;
+  
+}
+
 
 
 }
