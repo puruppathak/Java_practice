@@ -79,6 +79,32 @@ int countXX(String str) {
   
 }
 
+boolean doubleX(String str) {
+  
+  
+  int i;
+  i = str.indexOf('x');
+  if(i==-1)
+  {
+  
+  return false;
+  }
+ 
+ else
+ {
+ 
+ String x = str.substring(i);
+ boolean j = x.startsWith("xx");
+ if(j==true)
+ return true;
+ else return false;
+ }
+ 
+ }
+ 
+ 
+ 
+ 
 
 
 }
