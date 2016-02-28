@@ -119,6 +119,22 @@ boolean doubleX(String str) {
   
 }
 
+public String stringSplosion(String str) {
+  
+  String result="";
+  int i;
+  
+  
+  for(i=1;i<=str.length();i++)
+  {
+  
+  result = result + str.substring(0,i); 
+  
+  }
+  
+  return result;
+}
+
 
 
 }
