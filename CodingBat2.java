@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*; // required for certain packages
 
 class CodingBat2 {
 
