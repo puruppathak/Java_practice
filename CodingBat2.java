@@ -189,4 +189,25 @@ public boolean arrayFront9(int[] nums) {
   
 }
 
+public boolean array123(int[] nums) {
+  
+  int i;
+  boolean flag1=false,flag2=false,flag3=false;
+  int end = nums.length;
+  for(i=0;i<end;i++)
+  {
+  
+  if(nums[i]==1)
+  flag1=true;
+  else if(nums[i]==2)
+  flag2=true;
+  else if(nums[i]==3)
+  flag3=true;
+  
+  }
+  
+  return(flag1 & flag2 & flag3);
+  
+}
+
 }
