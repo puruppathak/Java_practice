@@ -168,5 +168,25 @@ public int arrayCount9(int[] nums) {
   
 }
 
+public boolean arrayFront9(int[] nums) {
+  
+  if(nums.length<1)
+  return false;
+  else
+  {
+  int end = nums.length;
+  if(end>4)
+  end=4;
+  int i;
+  for(i=0;i<end;i++)
+  {
+  
+  if(nums[i]==9)
+  return true;
+  }
+  return false;
+  }
+  
+}
 
 }
