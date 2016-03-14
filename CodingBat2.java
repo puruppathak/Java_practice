@@ -135,6 +135,25 @@ public String stringSplosion(String str) {
   return result;
 }
 
+public int last2(String str) {
+  if (str.length() < 2) return 0;
+  
+  int n = str.length(); 
+  String last1 = str.substring(n-2);
+  int counter=0,i;
+  
+  for(i=0;i<n-2;i++)
+  {
+  
+  if(str.substring(i,i+2).equals(last1))
+  counter++;
+  
+  }
+  return counter;
+  
+  
+}
+
 
 
 }
