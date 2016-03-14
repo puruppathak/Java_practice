@@ -155,6 +155,18 @@ public int last2(String str) {
 }
 
 
+public int arrayCount9(int[] nums) {
+  int i,counter=0;
+  for(i=0;i<nums.length;i++)
+  {
+  
+  if(nums[i]==9)
+  counter++;
+  
+  }
+  return counter;
+  
+}
 
 
 }
