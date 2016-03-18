@@ -229,4 +229,26 @@ public int stringMatch(String a, String b) {
   return j;
 }
 
+
+public String stringX(String str) {
+  int i,j,n;
+  String ans="";
+  if(str.length()<3)
+  return str;
+  else{
+  for(i=1;i<str.length()-1;i++)
+  {
+  
+  char sub = str.charAt(i); 
+  
+  if(sub!='x')
+  ans=ans+sub;
+  }
+  
+  return str.charAt(0)+ans+str.charAt(str.length()-1);
+  
+  
+  }
+}
+
 }
