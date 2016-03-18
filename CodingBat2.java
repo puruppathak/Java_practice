@@ -251,4 +251,28 @@ public String stringX(String str) {
   }
 }
 
+
+public String altPairs(String str) {
+  
+  int end;
+  if(str.length()<3)
+  return str;
+  else{
+  String result = "";
+  int i,j,n=str.length();
+  for(i=0;i<n;i=i+4){
+  end=i+2;
+  if(end>n)
+  {end=n;}
+  
+  result=result+ str.substring(i, end);
+  }
+  
+  
+  
+  
+  return result;
+  }
+}
+
 }
