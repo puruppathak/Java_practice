@@ -210,4 +210,23 @@ public boolean array123(int[] nums) {
   
 }
 
+
+public int stringMatch(String a, String b) {
+  
+  int n = Math.min(a.length(),b.length());
+  int i,j=0;
+  for(i=0;i<n-1;i++)
+  {
+  
+  
+  String asub = a.substring(i,i+2);
+  String bsub = b.substring(i,i+2);
+  if(asub.equals(bsub))
+  j++;
+  
+  }
+  
+  return j;
+}
+
 }
